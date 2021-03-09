@@ -1,0 +1,9 @@
+body{
+  background: lightgray;
+}
+
+p{
+  padding: 40px;
+  border: 1px solid black;
+  margin: 50px;
+}
