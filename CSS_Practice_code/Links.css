@@ -1,0 +1,28 @@
+.links {
+  list-style: circle;
+  /* list-style-image: url(0(1).jfif); */
+  padding: 20px;
+  float: right;
+}
+
+.links a {
+  text-decoration: none;
+  color: #333;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.links li {
+  display: inline;
+}
+.links a:hover {
+  color: red;
+}
+
+.links a:active {
+  color: green;
+}
+
+/* .links a:visited {
+  color: yellow;
+} */
