@@ -1,0 +1,30 @@
+body{
+  background: lightgrey;
+    font-family: 'Redressed', cursive;
+
+}
+h1{
+  color: tomato;
+}
+
+.pink{
+  color: red;
+  text-align: center;
+  text-decoration: underline;
+  text-transform: capitalize;
+  text-shadow: 1px 2px #333;
+}
+
+#para1{
+  font-style: italic;
+  font-size: 12px;
+  font-weight: 700;
+  text-align: center;
+  word-spacing: 10px;
+  line-height: 30px;
+}
+
+
+a{
+  text-decoration: none;
+}
