@@ -5,18 +5,23 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="Style.css" />
+
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
       integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w=="
       crossorigin="anonymous"
     />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap"
+      rel="stylesheet"
+    />
     <title>Landing Page</title>
   </head>
   <body>
-    <div class="vody-wrapper">
+    <div class="body-wrapper">
       <!-- Header  -->
-      <header>
+      <header id="home">
         <div class="nav">
           <div class="container">
             <div class="logo">
@@ -25,7 +30,7 @@
             <ul>
               <li><a href="#home">Home</a></li>
               <li><a href="#services">Services</a></li>
-              <li><a href="#pricing">Pricing</a></li>
+              <li><a href="#price">Pricing</a></li>
               <li><a href="#contact">Contact</a></li>
             </ul>
           </div>
@@ -34,12 +39,14 @@
         <div class="header-info">
           <div class="container">
             <h1>
-              Intuitive, feature-rich, affordable customer support software
+              Intuitive, feature-rich, affordable <br />
+              customer support software
             </h1>
 
             <p>
-              Chap fantastic skive off chancer knees up starkers easy peasy up
-              the kyver David, bleeding the BBC tomfoolery chimney.!
+              Chap fantastic skive off chancer knees up starkers easy peasy
+              <br />
+              up the kyver David, bleeding the BBC tomfoolery chimney.!
             </p>
 
             <div class="header-input">
@@ -60,7 +67,7 @@
 
       <!-- Services  -->
 
-      <div class="services-area">
+      <div class="services-area" id="Services">
         <div class="conatiner">
           <div class="services-area-text">
             <h1>How does it work?</h1>
@@ -68,6 +75,119 @@
               The full monty burke excuse my French Richard cheeky bobby
               spiffing crikey Why gormless, pear shaped.!
             </p>
+          </div>
+          <div class="box">
+            <img src="analytics.png" alt="" />
+            <h3>Analytics Training</h3>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste
+              saepe repellat et magni id fuga accusantium asperiores ad?
+              Temporibus nam sunt dolor reprehenderit natus rerum corrupti nisi
+              veniam explicabo numquam!
+            </p>
+            <i class="fas-fa-arrow-right"></i>
+          </div>
+          <div class="box">
+            <img src="rocket.png" alt="" />
+            <h3>Speed Testing</h3>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste
+              saepe repellat et magni id fuga accusantium asperiores ad?
+              Temporibus nam sunt dolor reprehenderit natus rerum corrupti nisi
+              veniam explicabo numquam!
+            </p>
+            <i class="fas-fa-arrow-right"></i>
+          </div>
+          <div class="box">
+            <img src="email.png" alt="" />
+            <h3>Email Marketing</h3>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste
+              saepe repellat et magni id fuga accusantium asperiores ad?
+              Temporibus nam sunt dolor reprehenderit natus rerum corrupti nisi
+              veniam explicabo numquam!
+            </p>
+            <i class="fas-fa-arrow-right"></i>
+          </div>
+        </div>
+      </div>
+      <!-- Price estimation -->
+      <div class="price-est" id="price">
+        <div class="container">
+          <h1>Price Estimate</h1>
+          <h2>Ready to get started? It's easy!</h2>
+          <button type="button" name="button">Get Estimate</button>
+        </div>
+      </div>
+      <!-- contact us -->
+      <div class="contact-us" id="contact">
+        <div class="container">
+          <div class="contact-us-text">
+            <h1>Contact us</h1>
+            <p>You can contact us by filling the form below:</p>
+          </div>
+          <form class="contact-us-form" action="index.html" method="POST">
+            <input
+              type="text"
+              name="fname"
+              placeholder="Enter Your name"
+              autocomplete="off"
+            />
+            <input
+              type="email"
+              name="cemail"
+              placeholder="Enter your Email"
+              autocomplete="off"
+            />
+            <button type="button" name="submit">Submit</button>
+          </form>
+        </div>
+      </div>
+      <div class="footer">
+        <div class="container">
+          <div class="col">
+            <div class="col-box">
+              <h3>Get in touch</h3>
+              <p>Dont't miss out on updates, products and extensions.</p>
+              <input type="email" name="" placeholder="Email" />
+              <button type="button" name="subscribe">subscribe</button>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="col-box">
+              <h3>Download</h3>
+              <ul>
+                <li><a href="#">Download</a></li>
+                <li><a href="#">Android App</a></li>
+                <li><a href="#">ios App</a></li>
+                <li><a href="#">Windows</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col">
+            <div class="col-box">
+              <h3>Menu</h3>
+              <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Pricing</a></li>
+                <li><a href="#">Contact</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col">
+            <div class="col-box">
+              <div class="social">
+                <h3>Social</h3>
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+
+                <a href="#"><i class="fab fa-youtube"></i></a>
+
+                <a href="#"><i class="fab fa-twitter"></i></a>
+              </div>
+            </div>
           </div>
         </div>
       </div>
